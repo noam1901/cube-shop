@@ -1,0 +1,34 @@
+.nav {
+    background-color: blue;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 2;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+.site-title {
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem;
+}
+.nav li.active {
+    background-color: rgb(65, 163, 181);
+}
+.nav li:hover {
+    background-color: rgb(65, 163, 181);
+}
