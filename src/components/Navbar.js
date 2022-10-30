@@ -3,13 +3,13 @@ import './Navbar.css'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 const Navbar = () => {
+    const loggedIn = true
   return (
     <div className='nav'>
        <Link to='/' className='site-title'>Cube Shop</Link>
        <ul>
-                <CustomLink to='/categories'>Categories</CustomLink> 
-                {/* need to be a dropdown menu */}
-                <CustomLink to='/products'>products</CustomLink>
+            <CustomLink to={!loggedIn? '/Login': '/Cart'}>{!loggedIn? 'Login': 'Cart'}</CustomLink> 
+            <CustomLink to={!loggedIn? '/Register' : '/Profile'}>{!loggedIn? 'Register': 'Profile'}</CustomLink>
         </ul> 
     </div>
   )
