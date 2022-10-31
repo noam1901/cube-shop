@@ -20,6 +20,9 @@
     display: flex;
     gap: 1rem;
 }
+.nav ul a {
+    font-weight: 700;
+}
 .site-title {
     color: black;
     font-size: 2rem;
