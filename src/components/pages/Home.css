@@ -1,0 +1,9 @@
+.popular-title {
+    display: flex;
+    justify-content: center;
+  
+
+}
+.popular-title span {
+    text-decoration: solid;
+}

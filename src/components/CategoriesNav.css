@@ -1,6 +1,6 @@
 .categories-nav {
     display: flex;
-    background-color: blue;
+    background: linear-gradient(90deg, #fdcd3b 30%, #ffed4b 40%,#fdcd3b 100%);
      border-top: white 1px solid;
     gap: 2;
 }
@@ -30,8 +30,8 @@
     font-weight: 700;
 }
 .categories-nav li:hover {
-    background-color: rgb(65, 163, 181);
+    background: linear-gradient(90deg, #fdcd3b 30%, #ffed4b 40%,#fdcd3b 100%);
 }
 .categories-nav li.active {
-    background-color: rgb(65, 163, 181);
+    background: linear-gradient(90deg, #fdcd3b 30%, #ffed4b 40%,#fdcd3b 100%);
 }
